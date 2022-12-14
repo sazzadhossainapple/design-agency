@@ -1,0 +1,57 @@
+.nav__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 54px 140px 0px 140px;
+}
+/* ====== nav left ====== */
+
+.nav__left {
+  display: flex;
+  align-items: center;
+}
+/* ====== nav logo title ====== */
+.logo__title {
+  margin-right: 25px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.logo__big-title {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+
+.logo__small-title {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* ====== nav items list ====== */
+.nav__left ul {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  list-style: none;
+}
+
+.nav__item-list {
+  text-decoration: none;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 600;
+}
+
+/* ====== nav right button ====== */
+.nav__right {
+  display: flex;
+  gap: 12px;
+}
+.btn__call {
+  background-color: #000000;
+  color: #ffffff;
+}
+.btn__hiring {
+  background-color: #ffffff;
+  color: #000000;
+}
