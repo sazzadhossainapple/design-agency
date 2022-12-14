@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 54px 140px 0px 140px;
+  padding: 30px 140px 0px 140px;
 }
 /* ====== nav left ====== */
 
@@ -19,7 +19,9 @@
 .logo__big-title {
   font-size: 30px;
   font-weight: 900;
-  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  line-height: 27px;
 }
 
 .logo__small-title {
@@ -54,4 +56,26 @@
 .btn__hiring {
   background-color: #ffffff;
   color: #000000;
+}
+
+/* ========== MEDIA QUERIES (MEDIA DEVICE) ========== */
+@media only screen and (max-width: 1024px) {
+  .nav__container {
+    padding: 20px 50px 0px 50px;
+  }
+  .nav__left ul,
+  .nav__right {
+    display: none;
+  }
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICE) ========== */
+@media only screen and (max-width: 640px) {
+  .nav__container {
+    padding: 20px 30px 0px 30px;
+  }
+  .nav__left ul,
+  .nav__right {
+    display: none;
+  }
 }

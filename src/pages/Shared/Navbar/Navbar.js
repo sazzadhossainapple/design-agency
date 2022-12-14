@@ -9,8 +9,7 @@ const Navbar = () => {
       <div className="nav__left">
         <div className="logo__title">
           <h2 className="logo__big-title">
-            Design <br />
-            <span className="logo__small-title">Agency</span>
+            Design <span className="logo__small-title">Agency</span>
           </h2>
         </div>
         <ul>
