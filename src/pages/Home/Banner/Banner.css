@@ -36,16 +36,16 @@
   font-weight: bold;
 }
 
-/* ========== MEDIA QUERIES (MEDIA DEVICE) ========== */
+/* ========== MEDIA QUERIES (TABLET DEVICE) ========== */
 @media only screen and (max-width: 1024px) {
   .banner__container-text {
     padding: 40px 50px 0px 50px;
   }
 }
 
-/* ========== MEDIA QUERIES (SMALL DEVICE) ========== */
+/* ========== MEDIA QUERIES (MOBILE DEVICE) ========== */
 @media only screen and (max-width: 640px) {
   .banner__container-text {
-    padding: 30px 50px 0px 50px;
+    padding: 30px 30px 0px 30px;
   }
 }

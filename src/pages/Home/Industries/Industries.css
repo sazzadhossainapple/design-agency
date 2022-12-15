@@ -1,34 +1,26 @@
-.measurement__container {
-  background-color: #000000;
-  margin-top: 95px;
+.industries__container {
+  background-color: #ededed;
   width: 100%;
 }
-.measurement {
+.industries {
   padding: 80px 278px 80px 278px;
 }
 
 /*===== title text ======*/
-.measurement__title {
+.industries__title {
   text-align: center;
 }
-.measurement__title h1 {
+.industries__title h1 {
   font-size: 50px;
-  color: #00ff00;
+  color: #09090a;
   text-transform: uppercase;
   line-height: 55px;
-  margin-bottom: 3px;
+  margin-bottom: 100px;
   font-weight: 900;
 }
 
-.measurement__title p {
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 500;
-  margin-bottom: 100px;
-}
-
-/*===== measurement items ======*/
-.measurement__items {
+/*===== industries items ======*/
+.industries__items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 60px;
@@ -36,24 +28,24 @@
 
 /* ========== MEDIA QUERIES (TABLET DEVICE) ========== */
 @media only screen and (max-width: 1024px) {
-  .measurement {
+  .industries {
     padding: 70px 50px 70px 50px;
   }
-  .measurement__items {
+  .industries__items {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 /* ========== MEDIA QUERIES (MOBILE DEVICE) ========== */
 @media only screen and (max-width: 640px) {
-  .measurement {
+  .industries {
     padding: 50px 30px;
   }
-  .measurement__title h1 {
+  .industries__title h1 {
     font-size: 30px;
     line-height: 40px;
   }
-  .measurement__items {
+  .industries__items {
     grid-template-columns: 1fr;
     gap: 40px;
   }

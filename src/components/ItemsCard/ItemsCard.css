@@ -1,0 +1,15 @@
+.items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.items-img img {
+  height: 60px;
+  width: 60px;
+}
+.items h3 {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+}
