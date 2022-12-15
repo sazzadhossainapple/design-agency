@@ -5,9 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* ========== MEDIA QUERIES (TABLET DEVICE) ========== */
+@media only screen and (max-width: 1024px) {
+  body {
+    width: 100%;
+  }
+}
+
+/* ========== MEDIA QUERIES (MOBILE DEVICE) ========== */
+@media only screen and (max-width: 640px) {
+  body {
+    width: 100%;
+  }
 }
