@@ -11,14 +11,29 @@ import IMG8 from "../../../assert/Images/Measurement/measurement8.svg";
 import ItemsCard from "../../../components/ItemsCard/ItemsCard";
 
 const measurements = [
-  { id: 1, image: IMG1, title: "TRANSPARENCY AND RELIABILITY" },
-  { id: 2, image: IMG2, title: "REAL TIME PROJECT STATUS" },
-  { id: 3, image: IMG3, title: "WELL STRUCTURED COMMUNICATION" },
-  { id: 4, image: IMG4, title: "AGILE METHODOLOGY" },
-  { id: 5, image: IMG5, title: "ONSITE COLLABORATION" },
-  { id: 6, image: IMG6, title: "INNOVATION AT WORK" },
-  { id: 7, image: IMG7, title: "CLIENT'S INVOLVEMENT IN EACH MILESTONE" },
-  { id: 8, image: IMG8, title: "DEDICATED TEAM" },
+  {
+    id: 1,
+    image: IMG1,
+    title: "TRANSPARENCY AND RELIABILITY",
+    classes: "#ffffff",
+  },
+  { id: 2, image: IMG2, title: "REAL TIME PROJECT STATUS", classes: "#ffffff" },
+  {
+    id: 3,
+    image: IMG3,
+    title: "WELL STRUCTURED COMMUNICATION",
+    classes: "#ffffff",
+  },
+  { id: 4, image: IMG4, title: "AGILE METHODOLOGY", classes: "#ffffff" },
+  { id: 5, image: IMG5, title: "ONSITE COLLABORATION", classes: "#ffffff" },
+  { id: 6, image: IMG6, title: "INNOVATION AT WORK", classes: "#ffffff" },
+  {
+    id: 7,
+    image: IMG7,
+    title: "CLIENT'S INVOLVEMENT IN EACH MILESTONE",
+    classes: "#ffffff",
+  },
+  { id: 8, image: IMG8, title: "DEDICATED TEAM", classes: "#ffffff" },
 ];
 
 const Measurement = () => {

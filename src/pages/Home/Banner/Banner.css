@@ -48,4 +48,8 @@
   .banner__container-text {
     padding: 30px 30px 0px 30px;
   }
+  .banner__img {
+    height: 100%;
+    width: 100%;
+  }
 }
